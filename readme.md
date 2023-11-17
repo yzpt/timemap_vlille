@@ -1,2 +1,2 @@
-# Temporal Insights Visualization: Bubble Map with Vlille_GCP Data on Looker
+# Temporal insights visualization: bubble map with vlille_gcp project data on Looker
 
