@@ -1,4 +1,4 @@
-# Temporal insights visualization: Plotply bubble map with vlille_gcp project dataset
+# Temporal insights visualization: Plotply bubble map of vlille_gcp project dataset
 
 ```bash
 gcloud config list
