@@ -24,36 +24,5 @@ pip install ipykernel
 pip install db-dtypes
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## --- See nb*.ipynb ---
 ```
