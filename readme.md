@@ -1,5 +1,8 @@
 # Temporal insights visualization: Plotply bubble map of vlille_gcp project dataset
 
+file:///home/yzpt/projects/looker_vlille_bubble/timemap_vlille.mp4
+
+
 ```bash
 gcloud config list
 PROJECT_ID=zapart-data-vlille
