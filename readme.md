@@ -1,6 +1,10 @@
 # Temporal insights visualization: Plotply bubble map of vlille_gcp project dataset
 
-Uploading timemap_vlille.mp4…
+
+
+https://github.com/yzpt/timemap_vlille/assets/140260395/cb0c194c-00e8-4d28-8ef2-76d4499cb2cd
+
+
 
 ```bash
 gcloud config list
