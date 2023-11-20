@@ -280,7 +280,7 @@ FROM
     `{project_id}.{dataset_id}.{table_name}`
 WHERE
     station_id = 25
-    AND DATE(record_timestamp) = "2023-11-13"
+    AND DATE(record_timestamp) = "2023-09-27"
 """
 
 df_records = client.query(sql).to_dataframe()
@@ -387,7 +387,7 @@ FROM
     `{project_id}.{dataset_id}.records`
 WHERE
     `{project_id}.{dataset_id}.stations`.id = `{project_id}.{dataset_id}.records`.station_id
-    AND DATE(record_timestamp) = "2023-11-13"
+    AND DATE(record_timestamp) = "2023-09-27"
 """
 
 df_full = client.query(sql).to_dataframe()
@@ -437,83 +437,83 @@ df_full.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>2</td>
-      <td>UNIVERSITE CATHOLIQUE</td>
-      <td>31</td>
+      <td>1</td>
+      <td>METROPOLE EUROPEENNE DE LILLE</td>
       <td>0</td>
-      <td>2023-11-13 08:57:01.256000+00:00</td>
-      <td>RUE DU PORT BD VAUBAN</td>
+      <td>0</td>
+      <td>2023-09-27 10:00:42.773000+00:00</td>
+      <td>MEL RUE DU BALLON</td>
       <td>LILLE</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
       <td>AVEC TPE</td>
-      <td>EN SERVICE</td>
-      <td>CONNECTÉ</td>
-      <td>2023-11-13 08:55:08+00:00</td>
+      <td>RÉFORMÉ</td>
+      <td>DÉCONNECTÉ</td>
+      <td>2022-11-29 09:47:16+00:00</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2</td>
-      <td>UNIVERSITE CATHOLIQUE</td>
-      <td>31</td>
+      <td>1</td>
+      <td>METROPOLE EUROPEENNE DE LILLE</td>
       <td>0</td>
-      <td>2023-11-13 08:58:03.077000+00:00</td>
-      <td>RUE DU PORT BD VAUBAN</td>
+      <td>0</td>
+      <td>2023-09-27 15:19:00.882000+00:00</td>
+      <td>MEL RUE DU BALLON</td>
       <td>LILLE</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
       <td>AVEC TPE</td>
-      <td>EN SERVICE</td>
-      <td>CONNECTÉ</td>
-      <td>2023-11-13 08:56:08+00:00</td>
+      <td>RÉFORMÉ</td>
+      <td>DÉCONNECTÉ</td>
+      <td>2022-11-29 09:47:16+00:00</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2</td>
-      <td>UNIVERSITE CATHOLIQUE</td>
-      <td>31</td>
+      <td>1</td>
+      <td>METROPOLE EUROPEENNE DE LILLE</td>
       <td>0</td>
-      <td>2023-11-13 08:59:00.917000+00:00</td>
-      <td>RUE DU PORT BD VAUBAN</td>
+      <td>0</td>
+      <td>2023-09-27 20:28:01.143000+00:00</td>
+      <td>MEL RUE DU BALLON</td>
       <td>LILLE</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
       <td>AVEC TPE</td>
-      <td>EN SERVICE</td>
-      <td>CONNECTÉ</td>
-      <td>2023-11-13 08:57:09+00:00</td>
+      <td>RÉFORMÉ</td>
+      <td>DÉCONNECTÉ</td>
+      <td>2022-11-29 09:47:16+00:00</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2</td>
-      <td>UNIVERSITE CATHOLIQUE</td>
-      <td>31</td>
+      <td>1</td>
+      <td>METROPOLE EUROPEENNE DE LILLE</td>
       <td>0</td>
-      <td>2023-11-13 09:00:45.806000+00:00</td>
-      <td>RUE DU PORT BD VAUBAN</td>
+      <td>0</td>
+      <td>2023-09-27 01:30:10.842000+00:00</td>
+      <td>MEL RUE DU BALLON</td>
       <td>LILLE</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
       <td>AVEC TPE</td>
-      <td>EN SERVICE</td>
-      <td>CONNECTÉ</td>
-      <td>2023-11-13 08:57:09+00:00</td>
+      <td>RÉFORMÉ</td>
+      <td>DÉCONNECTÉ</td>
+      <td>2022-11-29 09:47:16+00:00</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2</td>
-      <td>UNIVERSITE CATHOLIQUE</td>
-      <td>31</td>
+      <td>1</td>
+      <td>METROPOLE EUROPEENNE DE LILLE</td>
       <td>0</td>
-      <td>2023-11-13 09:00:45.806000+00:00</td>
-      <td>RUE DU PORT BD VAUBAN</td>
+      <td>0</td>
+      <td>2023-09-27 16:08:00.744000+00:00</td>
+      <td>MEL RUE DU BALLON</td>
       <td>LILLE</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
       <td>AVEC TPE</td>
-      <td>EN SERVICE</td>
-      <td>CONNECTÉ</td>
-      <td>2023-11-13 08:57:09+00:00</td>
+      <td>RÉFORMÉ</td>
+      <td>DÉCONNECTÉ</td>
+      <td>2022-11-29 09:47:16+00:00</td>
     </tr>
   </tbody>
 </table>
@@ -529,7 +529,7 @@ df_full.shape
 
 
 
-    (415582, 13)
+    (415871, 13)
 
 
 
@@ -580,48 +580,48 @@ df_light.head()
   <tbody>
     <tr>
       <th>0</th>
-      <td>2</td>
-      <td>31</td>
+      <td>1</td>
       <td>0</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
-      <td>2023-11-13 08:57:01.256000+00:00</td>
+      <td>0</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
+      <td>2023-09-27 18:18:01.557000+00:00</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2</td>
-      <td>31</td>
+      <td>1</td>
       <td>0</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
-      <td>2023-11-13 08:58:03.077000+00:00</td>
+      <td>0</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
+      <td>2023-09-27 05:32:00.631000+00:00</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2</td>
-      <td>31</td>
+      <td>1</td>
       <td>0</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
-      <td>2023-11-13 08:59:00.917000+00:00</td>
+      <td>0</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
+      <td>2023-09-27 02:37:01.470000+00:00</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2</td>
-      <td>31</td>
+      <td>1</td>
       <td>0</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
-      <td>2023-11-13 09:00:45.806000+00:00</td>
+      <td>0</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
+      <td>2023-09-27 07:02:06.403000+00:00</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2</td>
-      <td>31</td>
+      <td>1</td>
       <td>0</td>
-      <td>50.632233</td>
-      <td>3.046134</td>
-      <td>2023-11-13 09:00:45.806000+00:00</td>
+      <td>0</td>
+      <td>50.641926</td>
+      <td>3.075992</td>
+      <td>2023-09-27 04:19:01.130000+00:00</td>
     </tr>
   </tbody>
 </table>
@@ -631,7 +631,7 @@ df_light.head()
 
 
 ```python
-df_light.to_csv('dataset_light.csv', index=False)
+df_light.to_csv('dataset_light_2023_09_27.csv', index=False)
 ```
 
 
